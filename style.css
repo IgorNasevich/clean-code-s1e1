@@ -1,26 +1,26 @@
 /* Basic Style */
-.wrapper {
+  .wrapper {
     background-color: #f8f8f8;
     color: #333;
     font-family: lato, sans-serif;
     height: 100vh;
   }
-  .header {
+  .about {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
   }
-  .header__image {
+  .about__img {
     width: 100%;
   }
-  .header__link {
+  .about__link {
     font-family: fantasy, cursive;
   }
   
   @media (max-width:768px) {
   
-    .header { 
+    .about { 
       text-align: center;
     }
   
@@ -131,7 +131,7 @@
   }
   
   /* Completed */
-  ul#completed-tasks label {
+  ul#completed__list label {
     text-decoration: line-through;
     color: #888;
   }
@@ -141,11 +141,11 @@
     display: none;
   }
   
-  ul li.editmode input[type=text] {
+  ul li.todo__edit-task input[type=text] {
     display: inline-block;
     width: 224px;
   }
   
-  ul li.editmode label {
+  ul li.todo__edit-task label {
     display: none;
   }
